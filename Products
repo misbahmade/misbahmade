@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Misbah Made – Products</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #333;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: #f5f5f5;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 25px;
+}
+
+/* PRODUCT TABLETS */
+.product {
+  display: inline-block;
+  width: 240px;
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.product img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #f0f0f0;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.actual-price {
+  font-size: 20px;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.offer-price {
+  font-size: 26px;
+  color: #e60023;
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.buy-btn {
+  margin-top: 8px;
+  background: #ff2f92;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#products">Products</a>
+</nav>
+
+<section id="products">
+<h2>Our Products</h2>
+
+<!-- PRODUCT 1 -->
+<div class="product">
+  <img src="images/product1.jpg" alt="Product 1">
+  <h3>Product Name 1</h3>
+  <div class="actual-price">₹000</div>
+  <div class="offer-price">₹000</div>
+  <a class="btn buy-btn" href="https://www.instagram.com/direct/t/17841400000000000" target="_blank">
+    Buy on Instagram
+  </a>
+</div>
+
+<!-- PRODUCT 2 -->
+<div class="product">
+  <img src="images/product2.jpg" alt="Product 2">
+  <h3>Product Name 2</h3>
+  <div class="actual-price">₹000</div>
+  <div class="offer-price">₹000</div>
+  <a class="btn buy-btn" href="https://www.instagram.com/direct/t/17841400000000000" target="_blank">
+    Buy on Instagram
+  </a>
+</div>
+
+<!-- PRODUCT 3 -->
+<div class="product">
+  <img src="images/product3.jpg" alt="Product 3">
+  <h3>Product Name 3</h3>
+  <div class="actual-price">₹000</div>
+  <div class="offer-price">₹000</div>
+  <a class="btn buy-btn" href="https://www.instagram.com/direct/t/17841400000000000" target="_blank">
+    Buy on Instagram
+  </a>
+</div>
+
+<!-- PRODUCT 4 -->
+<div class="product">
+  <img src="images/product4.jpg" alt="Product 4">
+  <h3>Product Name 4</h3>
+  <div class="actual-price">₹000</div>
+  <div class="offer-price">₹000</div>
+  <a class="btn buy-btn" href="https://www.instagram.com/direct/t/17841400000000000" target="_blank">
+    Buy on Instagram
+  </a>
+</div>
+
+<!-- PRODUCT 5 -->
+<div class="product">
+  <img src="images/product5.jpg" alt="Product 5">
+  <h3>Product Name 5</h3>
+  <div class="actual-price">₹000</div>
+  <div class="offer-price">₹000</div>
+  <a class="btn buy-btn" href="https://www.instagram.com/direct/t/17841400000000000" target="_blank">
+    Buy on Instagram
+  </a>
+</div>
+
+<!-- PRODUCT 6 -->
+<div class="product">
+  <img src="images/product6.jpg" alt="Product 6">
+  <h3>Product Name 6</h3>
+  <div class="actual-price">₹000</div>
+  <div class="offer-price">₹000</div>
+  <a class="btn buy-btn" href="https://www.instagram.com/direct/t/17841400000000000" target="_blank">
+    Buy on Instagram
+  </a>
+</div>
+
+<!-- PRODUCT 7 -->
+<div class="product">
+  <img src="images/product7.jpg" alt="Product 7">
+  <h3>Product Name 7</h3>
+  <div class="actual-price">₹000</div>
+  <div class="offer-price">₹000</div>
+  <a class="btn buy-btn" href="https://www.instagram.com/direct/t/17841400000000000" target="_blank">
+    Buy on Instagram
+  </a>
+</div>
+
+<!-- PRODUCT 8 -->
+<div class="product">
+  <img src="images/product8.jpg" alt="Product 8">
+  <h3>Product Name 8</h3>
+  <div class="actual-price">₹000</div>
+  <div class="offer-price">₹000</div>
+  <a class="btn buy-btn" href="https://www.instagram.com/direct/t/17841400000000000" target="_blank">
+    Buy on Instagram
+  </a>
+</div>
+
+<!-- PRODUCT 9 -->
+<div class="product">
+  <img src="images/product9.jpg" alt="Product 9">
+  <h3>Product Name 9</h3>
+  <div class="actual-price">₹000</div>
+  <div class="offer-price">₹000</div>
+  <a class="btn buy-btn" href="https://www.instagram.com/direct/t/17841400000000000" target="_blank">
+    Buy on Instagram
+  </a>
+</div>
+
+<!-- PRODUCT 10 -->
+<div class="product">
+  <img src="images/product10.jpg" alt="Product 10">
+  <h3>Product Name 10</h3>
+  <div class="actual-price">₹000</div>
+  <div class="offer-price">₹000</div>
+  <a class="btn buy-btn" href="https://www.instagram.com/direct/t/17841400000000000" target="_blank">
+    Buy on Instagram
+  </a>
+</div>
+
+</section>
+
+</body>
+</html>
